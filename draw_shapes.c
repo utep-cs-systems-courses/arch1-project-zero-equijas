@@ -28,7 +28,15 @@ void print_triangle(int leftCol, int size)
 
 //Prints an arrow
 void print_arrow(int leftCol, int size)
-{
-  printf("it's an arrow!");
+{ 
+  for (int row = 0; row < size; row++) {
+    int col; 
+    for (col = 0; col < leftCol; col++)
+      if (row != 0 && row != size-1) {
+	putchar('*');
+      }
+    putchar('\n'); 
+  }
+  print_triangle(leftCol, size); 
 }
 
