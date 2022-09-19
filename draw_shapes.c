@@ -29,6 +29,6 @@ void print_triangle(int leftCol, int size)
 //Prints an arrow
 void print_arrow(int leftCol, int size)
 {
-  printf("it's a triangle!");
+  printf("it's an arrow!");
 }
 
