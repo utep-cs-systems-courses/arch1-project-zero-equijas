@@ -1,0 +1,229 @@
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master ⚡] 
+└[~/Documents/CO/arch1-project-zero-equijas]> make
+make
+cc -g -O3    -c -o draw_shapes.o draw_shapes.c
+cc -o asciidraw -g -O3  draw_shapes.o draw_chars.o 11x16font.o uimain.o
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master ⚡] 
+└[~/Documents/CO/arch1-project-zero-equijas]> ./asciidraw 
+./asciidraw 
+Welcome!
+Select which shape you want to print (Triangle = t, Square = s, Arrow = a, Chars = c) or 'q' to quit
+> a
+a
+You selected arrow:
+*
+ **
+  ***
+   ****
+    *****
+     ******
+      *******
+       ********
+        *********
+         **********
+              *********           
+             *********           
+            *********           
+           *********           
+          *********           
+         *********           
+        *********           
+       *********           
+      *********           
+     *********           
+    *********           
+Select which shape you want to print (Triangle = t, Square = s, Arrow = a, Chars = c) or 'q' to quit
+> q
+q
+Bye!
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master ⚡] 
+└[~/Documents/CO/arch1-project-zero-equijas]> make
+make
+cc -g -O3    -c -o draw_shapes.o draw_shapes.c
+cc -o asciidraw -g -O3  draw_shapes.o draw_chars.o 11x16font.o uimain.o
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master ⚡] 
+└[~/Documents/CO/arch1-project-zero-equijas]> ./asciidraw 
+./asciidraw 
+Welcome!
+Select which shape you want to print (Triangle = t, Square = s, Arrow = a, Chars = c) or 'q' to quit
+> a
+a
+You selected arrow:
+*
+ **
+  ***
+   ****
+    *****
+     ******
+      *******
+       ********
+        *********
+         **********
+           *********           
+          *********           
+         *********           
+        *********           
+       *********           
+      *********           
+     *********           
+    *********           
+   *********           
+  *********           
+ *********           
+Select which shape you want to print (Triangle = t, Square = s, Arrow = a, Chars = c) or 'q' to quit
+> q
+q
+Bye!
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master ⚡] 
+└[~/Documents/CO/arch1-project-zero-equijas]> make
+make
+cc -g -O3    -c -o draw_shapes.o draw_shapes.c
+cc -o asciidraw -g -O3  draw_shapes.o draw_chars.o 11x16font.o uimain.o
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master ⚡] 
+└[~/Documents/CO/arch1-project-zero-equijas]> ./asciidraw 
+./asciidraw 
+Welcome!
+Select which shape you want to print (Triangle = t, Square = s, Arrow = a, Chars = c) or 'q' to quit
+> a
+a
+You selected arrow:
+*
+ **
+  ***
+   ****
+    *****
+     ******
+      *******
+       ********
+        *********
+         **********
+          *********           
+         *********           
+        *********           
+       *********           
+      *********           
+     *********           
+    *********           
+   *********           
+  *********           
+ *********           
+*********           
+Select which shape you want to print (Triangle = t, Square = s, Arrow = a, Chars = c) or 'q' to quit
+> q
+q
+Bye!
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master ⚡] 
+└[~/Documents/CO/arch1-project-zero-equijas]> make
+make
+cc -g -O3    -c -o draw_shapes.o draw_shapes.c
+cc -o asciidraw -g -O3  draw_shapes.o draw_chars.o 11x16font.o uimain.o
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master ⚡] 
+└[~/Documents/CO/arch1-project-zero-equijas]> ./asciidraw 
+./asciidraw 
+Welcome!
+Select which shape you want to print (Triangle = t, Square = s, Arrow = a, Chars = c) or 'q' to quit
+> a
+a
+You selected arrow:
+*
+ **
+  ***
+   ****
+    *****
+     ******
+      *******
+       ********
+        *********
+         **********
+          *********                     
+         *********                       
+        *********                         
+       *********                           
+      *********                             
+     *********                               
+    *********                                 
+   *********                                   
+  *********                                    
+ *********                                    
+*********                                     
+Select which shape you want to print (Triangle = t, Square = s, Arrow = a, Chars = c) or 'q' to quit
+> q
+q
+Bye!
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master ⚡] 
+└[~/Documents/CO/arch1-project-zero-equijas]> git add . 
+git add . 
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master ⚡] 
+└[~/Documents/CO/arch1-project-zero-equijas]> git commit -m "printing semi arrow" 
+git commit -m "printing semi arrow" 
+[master e10cf50] printing semi arrow
+ 5 files changed, 33 insertions(+), 9 deletions(-)
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master] 
+└[~/Documents/CO/arch1-project-zero-equijas]> git push 
+git push 
+Enter passphrase for key '/Users/efrenquijas/.ssh/id_rsa': 
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 2.83 KiB | 2.83 MiB/s, done.
+Total 7 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.        
+To github.com:utep-cs-systems-courses/arch1-project-zero-equijas.git
+   6a0e279..e10cf50  master -> master
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master] 
+└[~/Documents/CO/arch1-project-zero-equijas]> ./asciidraw 
+./asciidraw 
+Welcome!
+Select which shape you want to print (Triangle = t, Square = s, Arrow = a, Chars = c) or 'q' to quit
+> c
+c
+You selected chars:
+  ***           
+  ******        
+     ******     
+     ** ******  
+     **    *****
+     **    *****
+     ** ******  
+     ******     
+  ******        
+  ***           
+                
+  **************
+  **************
+  **    **    **
+  **    **    **
+  **    **    **
+  **    **    **
+  **    ***  ***
+  ***  ******** 
+   ****** ****  
+    ****        
+                
+      ******    
+    **********  
+   ***      *** 
+  ***        ***
+  **          **
+  **          **
+  **          **
+  ***        ***
+   ***      *** 
+    **      **  
+                
+Select which shape you want to print (Triangle = t, Square = s, Arrow = a, Chars = c) or 'q' to quit
+> q
+q
+Bye!
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master ⚡] 
+└[~/Documents/CO/arch1-project-zero-equijas]> make
+make
+cc -g -O3    -c -o draw_shapes.o draw_shapes.c
+cc -g -O3    -c -o draw_chars.o draw_chars.c
+cc -g -O3    -c -o uimain.o uimain.c
+cc -o asciidraw -g -O3  draw_shapes.o draw_chars.o 5x7font.o uimain.o
+clang: error: no such file or directory: '5x7font.o'
+make: *** [asciidraw] Error 1
+┌[efrenquijas@Efrens-MacBook-Pro] [/dev/ttys002] [master ⚡] [2]
+└[~/Documents/CO/arch1-project-zero-equijas]> 
