@@ -28,15 +28,39 @@ void print_triangle(int leftCol, int size)
 
 //Prints an arrow
 void print_arrow(int leftCol, int size)
-{ 
-  for (int row = 0; row < size; row++) {
-    int col; 
-    for (col = 0; col < leftCol; col++)
-      if (row != 0 && row != size-1) {
-	putchar('*');
+{
+  for (int row = 0; row <= size*2; row++) {
+
+    
+    if (row < size) {
+      for (int col = 0; col <= row*2; col++) {
+	if (col >= row) {
+	  putchar('*');
+	}
+	else {
+	  putchar(' '); 
+	}
       }
-    putchar('\n'); 
+      putchar('\n');
+    }
+    if (row >= size) {
+      int minCol = leftCol+10 + size*2 - row, maxCol = leftCol+10 + size*2 + row;
+      int col;
+      for (col = 13; col < minCol+10; col++) {
+	if (col > minCol) {
+	  putchar('*'); 
+	} else {
+	  putchar(' ');
+	}
+      }
+      for (       ; col <= maxCol+10; col++) {
+	if (col >= maxCol) {
+	  putchar(' '); 
+	}
+ 
+      }
+      putchar('\n');
+    }
   }
-  print_triangle(leftCol, size); 
 }
 
